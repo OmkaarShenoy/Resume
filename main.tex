@@ -1,0 +1,189 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage[margin=0.72in]{geometry}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[inline]{enumitem}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage{hyperref}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+\usepackage{fontawesome}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-15pt}\vspace*{3pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-30.9pt}
+
+    
+
+%==== Profile ====%
+
+\begin{center}
+	{\Huge \scshape {Omkaar Shenoy}}\\
+	\vspace{2mm}
+	\faPhone  \hspace{0.5mm} (341)-345-7209 $\cdot$ \href{mailto:omkaarshenoyos@gmail.com}{\faEnvelope \hspace{0.5mm} omkaarshenoyos@gmail.com} \hspace{0.5mm}   $\cdot$ \href{https://www.linkedin.com/in/OmkaarShenoy/}{\faLinkedin/OmkaarShenoy} $\cdot$ \href{https://github.com/OmkaarShenoy}{\faGithub/OmkaarShenoy}
+	
+\end{center}
+
+
+%==== Education ====%
+
+
+    \header{\textbf{Education}}
+
+\textbf{BS Computer Science} \hfill May 2025 (expected)
+\\ Arizona State University \hfill Tempe, Arizona
+ 
+New American University Scholar, \href{https://gcsp.engineering.asu.edu/}{Grand Challenge Scholars Program} \faExternalLink \\
+\vspace{1mm}
+
+\vspace{2mm}
+
+    \header{\textbf{Technical Skills}}
+
+\textbf{Programming Languages}: Java, Python \\
+\textbf{Front-End}: HTML, CSS, Javascript, React \\
+\textbf{Tools}: Git, Github, Windows, MacOS, Excel, Figma, Airtable, \LaTeX \\
+\textbf{Relevant Coursework}: Intro to Programming with Java, Calculus 1 \\
+
+%==== Experience ====%
+
+\vspace{2mm}
+    \header{\textbf{Work Experience}}
+
+\textbf{Sports Program Official, } \textbf\textit{{\href{https://fitness.asu.edu/programs/intramurals}{Sun Devil Fitness Centre}} \faExternalLink},   \hfill September 2021 - Present\\
+\vspace{0mm}
+\vspace{-1mm}
+\begin{itemize}
+    \item Serve as an official for intramural contests and facilitate drop-in and open activities.
+    \item Learn both the rules of the game and the mechanics necessary to enforce the rules, and exercise authority in an impartial, firm and controlled manner. 
+    \item Supervise the set-up and take-down of sports sites and equipment, including but not limited to water, ice, first aid, and all other items for sports programs. 
+    \item Identify and report emergency situations quickly, and follow emergency care procedures in the event of an injury or emergency through implementation of CPR and First-Aid. 
+\end{itemize}
+
+\textbf{Research Volunteer, } \textit{\href{https://news.asu.edu/20200225-solutions-data-driven-quest-resilient-power-systems}{Arizona State University} \faExternalLink}, \hfill September 2021 - Present\\
+\vspace{0mm}
+\vspace{-1mm}
+\begin{itemize}
+    \item Assisting graduate research students with their projects by conducting user studies and analyzing collected data to evaluate visualization systems and techniques \textit{(Still in training)}
+\end{itemize}
+
+\textbf{CEO and CHRO, }\textbf\textit{{\href{https://myeduvisa.org/}{EduVisa}} \faExternalLink},   \hfill March 2019 - August 2021\\
+\vspace{0mm}
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Developed effective strategies to grow the organization and led the executive team and an online community of over 2500 members.
+	\item Orchestrated multiple online webinars (with software like OBS) and community events, including setting up registrations using Google Forms and Zapier, moderating events and collecting post-event feedback.
+	\item Devised an automated workflow to effectively assign over 500 students to their tutors and maintained a database using Airtable, MailChimp, Zapier and Excel.
+	\item Recruited over 100 tutors from around the world, enabling our organization to reach out to more students.
+	\item Motivated and supported team members and ensured deadlines are met with results.
+\end{itemize}
+
+\textbf{Social Media Marketing Intern, }\textbf\textit{{\href{https://www.unschool.in/}{UnSchool}} \faExternalLink},  \hfill August 2020 - August 2020\\
+\vspace{0mm}
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Identified potential leads and communicated the organisation\textquotesingle{}s Unique Selling Points (USP) to the over 25 customers.
+	\item Researched consumer opinions and marketing strategies and made adjustments to current strategies accordingly.
+\end{itemize}
+
+\vspace{-4mm}
+\begin{center}
+    \header{Projects}
+\end{center}
+
+\href{https://www.memoryglass.net}{\textbf{Memory Glass}} \faExternalLink, \href{https://epics.engineering.asu.edu/}{\textit{Engineering Projects in Community Service}} \faExternalLink
+\begin{itemize}
+    \item Working on a prototype of a product that attaches to glasses, and helps Alzheimer's patients recognize people around them by using facial recognition to project the name and relationship onto their glasses. 
+    \item Currently learning front-end development to build a web application that interacts with the attachment and learning OpenCV for the facial recognition. 
+\end{itemize}
+\vspace{-2mm}
+
+    
+	 
+\vspace{2mm}
+
+\vspace{-2mm}
+\begin{center}
+    \header{Other}
+\end{center}
+{\textbf{Microsoft Virtual Intern}}\\
+Participated in the Microsoft Virtual Internship Program 2020 though InternSherpa\\
+\vspace{2mm}
+\textbf{Harvard Coronavirus Visualization Community (CVC)} \\
+Member
+
+\begin{center}
+\underline{\textbf{Student Clubs}}
+\end{center}
+
+\begin{center}
+    
+
+\begin{itemize*}
+    \item ASU Software Developers Association
+    \item ASU Machine Learning Club
+    \item Sun Devil Data Science               
+    \item ASU Artificial Intelligence Club
+
+
+\end{itemize*}
+\end{center}
+
+\vspace{-20mm}
+    
+
+
+\ 
+\end{document}
