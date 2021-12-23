@@ -1,9 +1,9 @@
-PWD /Users/omkaarshenoy/Desktop/Resume
+PWD /Users/omkaarshenoy/Desktop/Latex Docs/Resume
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.tex
-OUTPUT /Users/omkaarshenoy/Desktop/Resume/main.log
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.tex
+OUTPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.log
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -521,10 +521,10 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.de
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.aux
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.aux
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.aux
-OUTPUT /Users/omkaarshenoy/Desktop/Resume/main.aux
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.aux
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.aux
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.aux
+OUTPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.aux
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -562,18 +562,18 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestri
 INPUT /usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-OUTPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-OUTPUT /Users/omkaarshenoy/Desktop/Resume/main.pdf
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+OUTPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+OUTPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.pdf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm2488.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/eccc2488.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
@@ -604,9 +604,9 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.aux
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
-INPUT /Users/omkaarshenoy/Desktop/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.aux
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
+INPUT /Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.out
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc
