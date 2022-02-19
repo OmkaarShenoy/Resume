@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1643214159 "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.tex" "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.pdf" "main" 1643214162
-  "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.aux" 1643214160 686 e6bf9f11827e1eae1d85e75b99e0a183 ""
-  "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.tex" 1643214159 6332 9587c26273f0f146647d1d77d4b997cf ""
+["pdflatex"] 1645245275 "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.tex" "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.pdf" "main" 1645245276
+  "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.aux" 1645245276 686 e6bf9f11827e1eae1d85e75b99e0a183 ""
+  "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.tex" 1645245274 6421 5a04157e5e1595f7f385bfac159dacd5 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -91,13 +91,13 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1637788512 2724743 398676ffd9e4704deb8af019a923a2eb ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "main.aux" 1643214160 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
-  "main.out" 1643214159 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1643214159 6332 9587c26273f0f146647d1d77d4b997cf ""
+  "main.aux" 1645245276 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
+  "main.out" 1645245275 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1645245274 6421 5a04157e5e1595f7f385bfac159dacd5 ""
   (generated)
   "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.pdf"
-  "main.out"
-  "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.log"
-  "main.log"
-  "main.aux"
   "main.pdf"
+  "main.out"
+  "main.log"
+  "/Users/omkaarshenoy/Desktop/Latex Docs/Resume/main.log"
+  "main.aux"
