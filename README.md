@@ -1,1 +1,1 @@
-[embed]https://github.com/OmkaarShenoy/Resume/blob/master/main.pdf[/embed]
+[embed] https://github.com/OmkaarShenoy/Resume/blob/master/main.pdf [/embed]
