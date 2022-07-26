@@ -1,1 +1,1 @@
-[embed] https://github.com/OmkaarShenoy/Resume/blob/master/main.pdf [/embed]
+# [Click here to see my resume!](https://github.com/OmkaarShenoy/Resume/blob/master/main.pdf)
