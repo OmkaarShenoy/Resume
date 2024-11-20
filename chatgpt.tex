@@ -1,0 +1,104 @@
+\documentclass[10pt, letterpaper]{article}
+\usepackage[a4paper, left=0.6in, right=0.6in, top=0.5in, bottom=0.5in]{geometry} % Tightened margins
+\usepackage{amsmath, amssymb, textcomp, enumitem, hyperref, fontawesome}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\pagestyle{empty}
+\raggedright
+
+% Reduce space before and after sections
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{6pt}{3pt}
+\titlespacing{\subsection}{0pt}{4pt}{2pt}
+
+\setlist[itemize]{leftmargin=5mm, itemsep=0pt, topsep=0pt}
+
+\newcommand{\lineunder} {
+    \vspace*{-4pt} \\ % Further reduced vertical space
+    \hspace*{-15pt} \hrulefill \\
+}
+
+\newcommand{\header}[1] {
+    {\textsc{\small #1}}
+    \lineunder % Compact line under header
+}
+
+\begin{document}
+
+%==== Profile ====%
+\begin{center}
+  {\LARGE \scshape Omkaar Shenoy}\\
+  \vspace{0.5mm}
+  \small{
+    \href{mailto:omkaarshenoyos@gmail.com}{omkaarshenoyos@gmail.com} | 
+    \href{https://omkaarshenoy.github.io}{omkaarshenoy.github.io} | 
+    +1 341-345-7209
+  }
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{B.S. in Computer Science}, Arizona State University, Tempe, AZ \hfill \textbf{GPA: 4.00} \\
+Minor in Media Arts and Sciences \hfill May 2025 (expected) \\
+\textbf{Relevant Coursework}: Data Structures, Artificial Intelligence, Theoretical Computer Science, Software Engineering
+
+%==== Work Experience ====%
+\header{Work Experience}
+\textbf{Software Engineering Intern}, \textit{WebstaurantStore} \hfill Lititz, PA | May 2024 – Present
+\begin{itemize}
+    \item Developed multi-step automation scripts using \textbf{Java}, reducing manual testing time by \textbf{40\%} and increasing test accuracy.
+    \item Implemented and maintained the in-house automation framework integrating \textbf{Selenium Grid}, enabling parallel test execution and reducing test cycle time by \textbf{50\%}.
+    \item Authored complex \textbf{SQL} queries to extract and analyze critical data, improving data-driven decision-making and reducing post-release defects by \textbf{30\%}.
+\end{itemize}
+
+\textbf{Automation Engineer}, \textit{Media Relations @ ASU} \hfill Tempe, AZ | Nov 2023 – Present
+\begin{itemize}
+    \item Scripted automated workflows with \textbf{JavaScript}, resulting in a \textbf{40\%} reduction in manual effort and a \textbf{30\%} improvement in content delivery timelines across 5+ departments.
+    \item Engineered and fine-tuned databases for the ASU Flagship and Public Relations team, optimizing efficiency and facilitating seamless collaboration.
+\end{itemize}
+
+\textbf{Software Developer Intern}, \textit{National Public Radio} \hfill Washington, DC | Jun 2022 – Aug 2022
+\begin{itemize}
+    \item Launched iOS Smart Banners on all \textbf{npr.org} pages using \textbf{PHP}, deploying the feature to \textbf{over 50 million} monthly NPR users and resulting in a \textbf{10\%} increase in NPR One App usage.
+    \item Enhanced company \textbf{SEO}, \textbf{UI}, and \textbf{UX} by developing and launching the NPR One app product page utilizing \textbf{HTML5}, \textbf{CSS}, and \textbf{JavaScript}.
+    \item Collaborated using \textbf{Git} and \textbf{Jira}, and utilized \textbf{Docker} and \textbf{Kubernetes} for efficient handling of traffic in production environments.
+\end{itemize}
+
+%==== Projects ====%
+\header{Projects}
+\textbf{Medharbor} \hfill Personal Project \\
+\textit{React, Express.js, MongoDB}
+\begin{itemize}
+    \item Led end-to-end development of a universal medical record database, employing \textbf{React}, \textbf{Express.js}, and \textbf{MongoDB} to ensure a secure, scalable, and responsive interface.
+    \item Engineered robust APIs for efficient and secure data storage and retrieval, addressing medical record accessibility issues to enhance patient-physician collaboration.
+\end{itemize}
+
+\textbf{HackKit} \hfill Open Source Project by ACM UTSA \\
+\textit{Next.js, PostgreSQL}
+\begin{itemize}
+    \item Built a points system for HackKit, utilized by \textbf{500+} participants at hackathons, reducing response times by \textbf{40\%} through the development of new features with \textbf{Next.js} and management of data in \textbf{PostgreSQL}.
+    \item Collaborated with a team to redesign the app’s structure, improving user engagement by \textbf{25\%} and providing a smoother experience for all participants.
+\end{itemize}
+
+\textbf{SuperTutor} \\
+\textit{Team Member} 
+\begin{itemize}
+    \item Integrated \textbf{OpenAI’s ChatGPT} to provide real-time tutoring and feedback, enhancing interactive learning and user support.
+    \item Developed \textbf{AAA-compliant} accessibility features, including text-to-speech and customizable UI options, ensuring inclusive access for users with disabilities.
+    \item Designed and deployed a \textbf{LaTeX-based} interactive course creation tool, enabling community-driven content development and expanding available learning materials.
+\end{itemize}
+
+%==== Leadership ====%
+\header{Leadership}
+\textbf{Director}, \textit{sunhacks} \\
+Spearheaded the planning and execution of sunhacks, Arizona's largest student-run hackathon with 1300+ registrations and 600+ participants, overseeing all aspects including event coordination, sponsor engagement, and team management, leading to increased participant engagement by 130\%.
+
+\textbf{Undergraduate Teaching Assistant}, \textit{Engineering Class} \\
+Assisted in teaching an undergraduate engineering course, including developing and delivering lecture content, grading assignments, and providing one-on-one support to students, supporting upwards of 250 students.
+
+%==== Technical Skills ====%
+\header{Technical Skills}
+\textbf{Languages and Frameworks}: Java, Python, C++, HTML, CSS, JavaScript, MySQL, Angular, MongoDB \\
+\textbf{Tools}: AWS, Figma, Git, GitHub, Windows, macOS, Excel, Airtable, LaTeX, Tableau
+
+\end{document}
