@@ -1,0 +1,13 @@
+# LaTeX build artifacts
+*.aux
+*.out
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS files
+.DS_Store
+
+# Node (if ever needed)
+node_modules/

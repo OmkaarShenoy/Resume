@@ -1,0 +1,90 @@
+\documentclass[10pt]{article}
+  \usepackage{geometry}
+  \linespread{1}
+  \geometry{paperwidth=8in, paperheight=11in, margin=0.50in}
+  \usepackage{amsmath}
+  \usepackage{amssymb}
+  \usepackage{textcomp}
+  \usepackage[inline]{enumitem}
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{hyperref}
+  \pagestyle{empty}
+  \raggedright
+  \input{glyphtounicode}  
+\pdfgentounicode=1
+\newcommand{\lineunder} {
+    \vspace*{-10pt} \\
+    \hspace*{-18pt} \hrulefill \\
+    \vspace*{2pt}
+}
+\newcommand{\header} [1] {
+  \vspace*{2pt}
+    {\hspace*{-15pt}\textsc{#1}}
+    \lineunder
+}
+\begin{document}
+
+%==== Profile ====%
+\begin{center}
+  {\Huge Omkaar Shenoy} \\
+  Philadelphia, PA \;•\;
+  \href{mailto:omkaarshenoyos@gmail.com}{omkaarshenoyos@gmail.com} \;•\;
+  \href{https://omkaarshenoy.com}{omkaarshenoy.com} \;•\;
+  \href{https://www.linkedin.com/in/omkaarshenoy}{linkedin.com/in/omkaarshenoy}
+\end{center}
+
+\header{\textbf{Summary}}
+Data Engineer designing and owning scalable analytics infrastructure and real-time data pipelines processing 20M+ transactions/month. Specialized in Snowflake + dbt analytics engineering, dimensional modeling, and production-grade data quality systems that improve reliability, reconciliation accuracy, and reporting performance at enterprise scale.\\
+\header{\textbf{Work Experience}}
+
+\textbf{Data Engineer}, \textit{Aramark} \hfill Philadelphia, PA \textbar{} May 2025--Present\\
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Led migration from ad-hoc Snowflake SQL to a modular \textbf{dbt analytics framework}, standardizing transformations and data quality across pipelines processing \textbf{20M+ transactions/month}.
+  \item Architected hybrid \textbf{real-time + batch} ingestion using Snowflake Streams, Snowpipe, and Azure Event Grid; designed \textbf{star schema models} supporting analytics across \textbf{2,000+ locations}.
+  \item Engineered a SQL-based fraud and reconciliation engine generating \textbf{1,000+ alerts/day}, increasing match accuracy by \textbf{35\%} and reducing manual investigation.
+  \item Developed enterprise reconciliation workflows in \textbf{Palantir Foundry}, enabling automated monitoring and anomaly detection across \textbf{2,000+ sites}.
+\end{itemize}
+
+
+\textbf{Software Engineer}, \textit{WebstaurantStore} \hfill Remote \textbar{} May 2024--May 2025\\
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Designed and implemented scalable Java + Selenium Grid automation framework with parallelized test execution; integrated into Azure DevOps CI/CD, reducing regression cycle time by 50% and increasing release confidence.
+  \item Wrote production \textbf{SQL (SQL Server)} for validation and defect analysis; reduced post-release defects by \textbf{30\%}.
+\end{itemize}
+
+\textbf{Software Developer Intern}, \textit{National Public Radio (NPR)} \hfill Washington, DC \textbar{} June 2022--August 2022\\
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Implemented Apple \textbf{Smart App Banner} across large-scale PHP templates on npr.org; shipped via feature flags and staged rollout.
+  \item Launched and optimized the \textbf{NPR One} landing page using accessible \textbf{HTML5, CSS, and JavaScript} with structured metadata.
+  \item Deployed changes through \textbf{Git/Jira} workflows using \textbf{Docker/Kubernetes} pipelines; collaborated cross-functionally on production releases.
+\end{itemize}
+
+\header{\textbf{Education}}
+\textbf{B.S. in Computer Science}, Minor in Media Arts and Sciences \hfill May 2025\\
+Arizona State University \hfill Tempe, AZ \textbar{} \textbf{GPA: 4.00}
+
+\header{\textbf{Open Source}}
+
+\textbf{HackKit} \hfill Open Source \textbar{} \textit{Node.js, MongoDB, Docker}\\
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Designed backend aggregation pipelines and optimized MongoDB schema architecture to support real-time scoring for 5,000+ participants, ensuring low-latency updates during live national hackathons.
+\end{itemize}
+
+\header{\textbf{Leadership}}
+
+\textbf{Director}, \textit{sunhacks (ASU)} \hfill Tempe, AZ\\
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Scaled ASU’s flagship hackathon to \textbf{600 attendees (2× YoY growth)}; managed \textbf{\$40K budget} and led \textbf{15} volunteers.
+  \item Secured sponsorships from \textbf{Amazon}, \textbf{Garmin}, and \textbf{General Dynamics}; streamlined check-in and judging workflows.
+\end{itemize}
+
+\header{\textbf{Technical Skills}}
+\textbf{Core:} SQL, Snowflake, dbt, Python\\
+\textbf{Data Modeling:} Dimensional modeling (star schema), analytics engineering\\
+\textbf{Data Platforms:} Palantir Foundry, PostgreSQL, SQL Server, MongoDB\\
+\textbf{Cloud \& Ingestion:} Azure (Event Grid, Functions, DevOps), Snowpipe, Snowflake Streams\\
+\textbf{Languages:} Java, C++, TypeScript\\
+\textbf{Tools:} Git, Docker, Kubernetes, Jira, Confluence
+
+\end{document}

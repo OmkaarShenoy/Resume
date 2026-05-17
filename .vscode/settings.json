@@ -1,0 +1,5 @@
+{
+  "latex-workshop.latex.outDir": "output/pdf",
+  "latex-workshop.latex.auxDir": "output/aux",
+  "latex-workshop.linting.chktex.enabled": false
+}

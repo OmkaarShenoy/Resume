@@ -1,0 +1,107 @@
+\documentclass[10pt]{article}
+  \usepackage{geometry}
+  \linespread{1}
+  \geometry{paperwidth=8in, paperheight=11in, margin=0.50in}
+  \usepackage{amsmath}
+  \usepackage{amssymb}
+  \usepackage{textcomp}
+  \usepackage[inline]{enumitem}
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{hyperref}
+  \pagestyle{empty}
+  \raggedright
+  \input{glyphtounicode}
+\pdfgentounicode=1
+\newcommand{\lineunder} {
+    \vspace*{-10pt} \\
+    \hspace*{-18pt} \hrulefill \\
+    \vspace*{2pt}
+}
+\newcommand{\header} [1] {
+  \vspace*{2pt}
+    {\hspace*{-15pt}\textsc{#1}}
+    \lineunder
+}
+\begin{document}
+
+%==== Profile ====%
+\begin{center}
+  {\Huge Omkaar Shenoy} \\
+
+  \href{mailto:omkaarshenoyos@gmail.com}{omkaarshenoyos@gmail.com} \;•\;
+  \href{https://omkaarshenoy.com}{omkaarshenoy.com} \;•\;
+  \href{https://www.linkedin.com/in/omkaarshenoy}{linkedin.com/in/omkaarshenoy}
+\end{center}
+
+\header{\textbf{Summary}}
+Data engineer building real-time event-driven ingestion pipelines and alerting systems on dbt, Snowflake and Azure. Interested in product-focused teams where data infrastructure directly drives product decisions and user behavior.
+\\
+\header{\textbf{Work Experience}}
+
+\textbf{Data Engineer}, \textit{Aramark} \hfill Philadelphia, PA \textbar{} May 2025--Present\\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Engineered anomaly-detection and alerting systems in SQL + dbt generating 1{,}000+ alerts/day across 2{,}000+ locations; raised reconciliation accuracy by 35\% and reduced manual investigation effort for operations teams.
+  \item Developed event-driven ingestion and orchestration pipelines using Snowpipe, Snowflake Streams, Azure Event Grid, Logic Apps, and API integrations to support near-real-time operational workflows and automated processing.
+  \item Standardized onboarding of new ingestion workflows by building reusable dbt templates and containerized deployment patterns with Azure Container Apps, improving deployment consistency and reducing engineering overhead.
+\end{itemize}
+
+\textbf{Software Engineer}, \textit{WebstaurantStore} \hfill Remote \textbar{} May 2024--May 2025\\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Delivered a test-automation and release platform using Java, Selenium Grid, and Azure DevOps CI/CD that reduced regression cycles by 50\% and elevated release confidence.
+  \item Developed validation tooling, SQL-based test workflows, and monitoring systems that surfaced production defects pre-release and bolstered deployment reliability.
+  \item Partnered with QA and engineering teams to improve release visibility, automate repetitive testing workflows, and streamline CI/CD processes.
+\end{itemize}
+
+\textbf{Software Developer Intern}, \textit{National Public Radio (NPR)} \hfill Washington, DC \textbar{} June 2022--August 2022\\
+
+\vspace{-2mm}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Owned and launched the NPR One consumer landing page end-to-end using HTML5, CSS, and JavaScript; boosted discoverability with structured metadata and conversion-focused CTAs.
+  \item Shipped Apple Smart App Banner across large-scale PHP templates using feature flags and staged rollout to measure impact and reduce risk.
+\end{itemize}
+
+\header{\textbf{Projects}}
+
+\textbf{Portfolio Instrumentation \& Insights} \hfill Personal Project \textbar{} TypeScript, PostHog, Next.js\\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Designed a custom event-tracking pipeline for my portfolio using PostHog to analyze visitor funnels, engagement patterns, traffic sources, and conversion events through dashboards and lightweight alerting.
+\end{itemize}
+
+\textbf{JustAteIt} \hfill Personal Project \textbar{} Expo, Next.js, TypeScript\\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Launched a cross-platform dish-tracking app with Expo and Next.js focused on repeat-visit behavior and taste preferences; instrumented analytics and event tracking across mobile and web workflows.
+\end{itemize}
+
+\textbf{HackKit} \hfill Open Source \textbar{} Node.js, MongoDB, Docker\\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Developed a real-time hackathon scoring platform using MongoDB aggregation pipelines and resilient backend workflows to support large-scale live judging and scoring operations.
+\end{itemize}
+
+\textbf{WikiGraph} \hfill Personal Project \textbar{} D3.js, Data Visualization\\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Visualized Wikipedia browsing sessions with an interactive D3.js graph to explore navigation depth, content relationships, and user exploration patterns.
+\end{itemize}
+\vspace{-2mm}
+\header{\textbf{Leadership}}
+\textbf{Director}, \textit{sunhacks (ASU)} \hfill Tempe, AZ\\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Scaled ASU's flagship hackathon to \textbf{600 attendees (2$\times$ YoY)}, managed a \textbf{\$40K} budget, led \textbf{15} volunteers, and closed sponsorships with \textbf{Amazon}, \textbf{Garmin}, and \textbf{General Dynamics}.
+\end{itemize}
+
+\header{\textbf{Education}}
+\textbf{B.S. in Computer Science}, Minor in Media Arts and Sciences \hfill May 2025\\
+Arizona State University \hfill Tempe, AZ \textbar{} \textbf{GPA: 4.00}
+\\
+\header{\textbf{Technical Skills}}
+\textbf{Data \& Analytics:} SQL, Python, dbt, Snowflake, PostgreSQL, MongoDB, PostHog\\
+\textbf{Infrastructure:} Docker, Kubernetes, Azure Container Apps, Event Grid, Logic Apps, CI/CD\\
+\textbf{Languages \& Frameworks:} TypeScript, Next.js, Node.js, React, Expo\\
+\end{document}
