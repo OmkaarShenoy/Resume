@@ -1,7 +1,7 @@
 \documentclass[10pt]{article}
   \usepackage{geometry}
   \linespread{1}
-  \geometry{paperwidth=8in, paperheight=11in, margin=0.50in} % Custom wider paper size
+  \geometry{paperwidth=8in, paperheight=11in, margin=0.50in}
   \usepackage{amsmath}
   \usepackage{amssymb}
   \usepackage{textcomp}
@@ -29,60 +29,65 @@
   {\Huge Omkaar Shenoy} \\
   Philadelphia, PA \;•\;\href{mailto:omkaarshenoyos@gmail.com}{omkaarshenoyos@gmail.com} \;•\;\href{https://omkaarshenoy.com}{omkaarshenoy.com} \;•\;
   \href{https://www.linkedin.com/in/omkaarshenoy}{linkedin.com/in/omkaarshenoy} \\
-  
 \end{center}
 
-\header{\textbf{Summary}}
-Data Engineer building scalable, production-grade data pipelines (\textbf{20M+ transactions/month}). Experienced with \textbf{Snowflake}, \textbf{dbt}, real-time ingestion, and \textbf{data quality automation}.
-
+% \header{\textbf{Summary}}
+% Software and Data Engineer with experience building production data platforms, backend services, and real-time ingestion systems. Skilled in Snowflake, dbt, Python, TypeScript, SQL, and cloud-native architectures supporting 20M+ monthly transactions.\\
 \header{\textbf{Work Experience}}
 
 \textbf{Data Engineer}, \textit{Aramark} \hfill Philadelphia, PA \textbar{} May 2025--Present\\
 \begin{itemize}[leftmargin=5mm, itemsep=0mm]
-  \item Owned end-to-end migration from raw \textbf{Snowflake SQL} to \textbf{dbt} (\textbf{models, tests, documentation}); improved maintainability and reliability across pipelines processing \textbf{20M+ transactions/month}.
-  \item Designed and implemented \textbf{real-time and batch ingestion pipelines} using \textbf{Snowflake Streams}, \textbf{Snowpipe}, and \textbf{Azure Event Grid}; implemented \textbf{dimensional models (star schema)} powering \textbf{2{,}000+ locations}.
-  \item Developed \textbf{SQL-based rules and alerting engine} producing \textbf{1{,}000+ alerts/day} for fraud, hardware health, and reconciliation monitoring; increased match accuracy by \textbf{35\%} and reduced downstream operational noise.
-  \item Partnered with analytics, finance, and operations stakeholders to productionize datasets, define SLAs, and enforce \textbf{data quality checks}.
+  \item Designed and implemented \textbf{real-time and batch ingestion architectures} using \textbf{Snowflake Streams}, \textbf{Snowpipe}, and \textbf{Azure Event Grid}; built \textbf{star schema dimensional models} powering analytics across \textbf{2{,}000+ locations}.
+  \item Led migration of production data pipelines from handwritten \textbf{Snowflake SQL} to a modular \textbf{dbt} architecture, designing reusable models, macros, automated tests, and documentation; reduced compute costs across pipelines processing \textbf{20M+ transactions/month}.
+  \item Developed \textbf{SQL-based rules and alerting engine} generating \textbf{1{,}000+ alerts/day} for fraud detection, hardware health, and reconciliation; tuned alert logic to increase match accuracy by \textbf{35\%} and reduce downstream noise.
+  \item Implemented testing, incremental models, source freshness checks, and CI/CD validation pipelines; built Microsoft Teams/email alerting and documentation workflows to improve reliability and data observability.
 \end{itemize}
 
 \textbf{Software Engineer}, \textit{WebstaurantStore} \hfill Remote \textbar{} May 2024--May 2025\\
 \begin{itemize}[leftmargin=5mm, itemsep=0mm]
-  \item Implemented internal \textbf{test automation infrastructure} using \textbf{Java}, \textbf{Selenium Grid}, and \textbf{Azure DevOps CI/CD}; enabled \textbf{parallel execution} and reduced full regression cycles by \textbf{50\%}.
-  \item Automated \textbf{50+} high-impact test cases with \textbf{Chrome-first coverage}, cutting \textbf{manual QA effort by 40\%} per release and accelerating deployment velocity.
-  \item Wrote production \textbf{SQL (SQL Server)} for validation, monitoring, and defect analysis; reduced \textbf{post-release defects by 30\%} by catching data and logic issues pre-deploy.
+  \item Wrote production SQL (SQL Server) for validation, defect monitoring, and performance analysis; identified slow query patterns pre-deploy and reduced post-release defects by 30\%.
+  \item Extended internal test automation framework (Groovy, Selenium Grid, Azure DevOps CI/CD) and automated 50+ high-impact test cases with Chrome-first coverage, cutting manual QA effort 40\% per release.
 \end{itemize}
 
 \textbf{Software Developer Intern}, \textit{National Public Radio (NPR)} \hfill Washington, DC \textbar{} June 2022--August 2022\\
 \begin{itemize}[leftmargin=5mm, itemsep=0mm]
-  \item Implemented Apple \textbf{Smart App Banner} across large-scale PHP templates on npr.org; shipped via \textbf{feature flags} and staged rollout to mitigate production risk.
-  \item Launched and optimized the \textbf{NPR One} landing page using accessible \textbf{HTML5, CSS, and JavaScript}; boosted app discoverability with structured metadata and conversion-focused CTAs.
-  \item Deployed changes through \textbf{Git/Jira}-based workflows using \textbf{Docker- and Kubernetes-backed pipelines}; collaborated cross-functionally for release validation and monitoring.
+  \item Implemented Apple Smart App Banner across NPR's PHP templates via feature flags and staged rollout; deployed through Docker/Kubernetes pipelines.
+  \item Launched the NPR One landing page with structured metadata to boost app discoverability.
 \end{itemize}
 
 \header{\textbf{Education}}
 \textbf{B.S. in Computer Science}, Minor in Media Arts and Sciences \hfill May 2025\\
 Arizona State University \hfill Tempe, AZ \textbar{} \textbf{GPA: 4.00}
 
-\header{\textbf{Open Source}}
+\header{\textbf{Projects}}
 
-\textbf{HackKit} \hfill Open Source \textbar{} \textit{Node.js, MongoDB, Docker}\\
+\textbf{Portfolio Analytics Engine} \hfill Personal Project \textbar{} \textit{Next.js, Upstash Redis, PostHog, Resend}
+\vspace{-1mm}
 \begin{itemize}[leftmargin=5mm, itemsep=0mm]
-  \item Implemented backend \textbf{data layer and aggregation pipelines} for an open-source hackathon platform; designed \textbf{MongoDB schemas} supporting real-time scoring for \textbf{5{,}000+ participants} across national events.
+  \item Built a visitor analytics backend with sessionization and scoring algorithms (engagement, recruiter-likelihood, bot detection); powered a real-time admin dashboard and daily summary emails via Resend.
+\end{itemize}
+
+\textbf{JustAteIt} \hfill Personal Project \textbar{} \textit{FastAPI, PostgreSQL, AWS ECS/S3, Clerk}
+\vspace{-1mm}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Built a microservices backend (API gateway + 3 FastAPI services) with a versioned Postgres schema and RLS; deployed to AWS ECS Fargate with S3-backed media uploads and CI-enforced schema/seed invariant tests.
+\end{itemize}
+
+\textbf{HackKit} \hfill Open Source \textbar{} \textit{Node.js, MongoDB, Docker}
+\begin{itemize}[leftmargin=5mm, itemsep=0mm]
+  \item Designed and implemented \textbf{MongoDB aggregation pipelines} and schemas for an open-source hackathon platform; optimized query performance for real-time scoring across \textbf{5{,}000+ participants} at national events.
 \end{itemize}
 
 \header{\textbf{Leadership}}
 
 \textbf{Director}, \textit{sunhacks (ASU)} \hfill Tempe, AZ\\
 \begin{itemize}[leftmargin=5mm, itemsep=0mm]
-  \item Led ASU’s flagship hackathon with \textbf{600 attendees} (\textbf{2× YoY growth}); managed a \textbf{\$40K budget} and coordinated \textbf{15} volunteers across operations and logistics.
-  \item Secured sponsorships with \textbf{Amazon}, \textbf{Garmin}, and \textbf{General Dynamics}; designed scalable check-in and judging workflows to support rapid event execution.
+  \item Led ASU's flagship hackathon with \textbf{600 attendees} (\textbf{2× YoY growth}) and a \textbf{\$40K budget}; secured sponsorships with \textbf{Amazon}, \textbf{Garmin}, and \textbf{General Dynamics}.
 \end{itemize}
 
 \header{\textbf{Technical Skills}}
-\textbf{Data Modeling:} Dimensional modeling (star schema), analytics engineering\\
-\textbf{Data Platforms:} Snowflake, dbt, Palantir Foundry, PostgreSQL, SQL Server, MongoDB\\
-\textbf{Languages:} SQL, Python, Java, C++, TypeScript\\
-\textbf{Cloud \& Ingestion:} Azure (Queues, Event Grid, Functions, DevOps), Snowpipe, Snowflake Streams\\
-\textbf{Tools:} Git, Docker, Kubernetes, Jira, Confluence
-
+\textbf{Languages:} Python, TypeScript, Java, SQL, C++\\
+\textbf{Backend \& Data:} FastAPI, PostgreSQL, MongoDB, SQL Server, Snowflake, dbt, Redis\\
+\textbf{Cloud \& DevOps:} AWS (ECS, S3), Azure, Docker, Kubernetes, Git\\
+\textbf{Other:} Palantir Foundry, Next.js, Jira, Confluence
 \end{document}
